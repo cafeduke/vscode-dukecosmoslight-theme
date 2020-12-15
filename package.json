@@ -1,0 +1,40 @@
+{
+    "name": "dukecosmoslight",
+    "displayName": "Duke Cosmos Light",
+    "description": "A light theme inspired by Slack and Eclipse themes",
+    "version": "0.0.1",
+    "publisher":"cafeduke",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "duke",
+        "purple",
+        "cosmos",
+        "light",
+        "theme",
+        "eclipse",        
+        "slack"
+    ],
+    "icon": "images/dukelight_icon_128.png",
+    "galleryBanner": {
+      "color": "#28003c",
+      "theme": "dark"
+    },   
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cafeduke/vscode-dukecosmoslight-theme.git"
+    },    
+    "contributes": {
+        "themes": [
+            {
+                "label": "Duke Cosmos Light",
+                "uiTheme": "vs",
+                "path": "./themes/DukeCosmosLight-color-theme.json"
+            }
+        ]
+    }
+}
